@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container text-center">
+        <div class="display-wrapper" id="display">
+            <input type="text" id="minMSB" value="0">
+            <input type="text" id="minLSB" value="0">
+            <span>:</span>
+            <input type="text" id="secMSB" value="0">
+            <input type="text" id="secLSB" value="0">
+        </div>
+
+        <div class="controls-wrapper">
+            <div class="controls">
+                <button class="btn btn-primary" id="start">Start</button>
+                <button class="btn btn-primary" id="stop" disabled>Stop</button>
+                <button class="btn btn-primary" id="reset">Reset</button>
+            </div>
+            <p>Please enter a valid time in <strong>MM:SS</strong></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
